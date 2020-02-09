@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+.navbar ul{
+  display: inline-flex;
+}
+.navbar li{
+margin: 0 20px;
+    display: flex;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+.activate{
+  color: black !important;
+}
