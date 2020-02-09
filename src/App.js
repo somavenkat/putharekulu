@@ -8,6 +8,8 @@ import Services from './Navbar/Services.js';
 import Contact from './Navbar/Contact.js';
 import axios from 'axios';
 
+import Comingsoon from './Comingsoon/Comingsoon.js';
+
 class App extends Component {
 
     
@@ -28,11 +30,12 @@ class App extends Component {
         return(
             <BrowserRouter>
                 <div className="App">
-                    <Navbar title="Compnay Logo"/>
+                    <Comingsoon />
+                    {/* <Navbar title="Compnay Logo"/>
                     <Route exact path="/" component={Home} />
                     <Route path="/about" component={About} />
                     <Route path="/services" component={Services} />
-                    <Route path="/contact" component={Contact} />
+                    <Route path="/contact" component={Contact} /> */}
                 </div>
             </BrowserRouter>
         )
